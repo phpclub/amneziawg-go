@@ -20,8 +20,8 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/amnezia-vpn/amneziawg-go/conn"
-	"github.com/amnezia-vpn/amneziawg-go/rwcancel"
+	"github.com/phpclub/amneziawg-go/conn"
+	"github.com/phpclub/amneziawg-go/rwcancel"
 )
 
 func (device *Device) startRouteListener(bind conn.Bind) (*rwcancel.RWCancel, error) {
